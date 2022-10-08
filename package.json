@@ -1,0 +1,36 @@
+{
+  "name": "stripe",
+  "version": "0.0.0",
+  "description": "This is the description of the plugin.",
+  "strapi": {
+    "name": "stripe",
+    "description": "Integration stripe, invoicing",
+    "kind": "plugin"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@strapi/design-system": "^1.2.5",
+    "@strapi/icons": "^1.2.5",
+    "typescript": "4.6.3",
+    "stripe": "^9.14.0"
+  },
+  "author": {
+    "name": "Andrew"
+  },
+  "maintainers": [
+    {
+      "name": "Andrew"
+    }
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "develop": "tsc -w",
+    "build": "tsc"
+  },
+  "license": "MIT"
+}

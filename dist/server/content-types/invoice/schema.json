@@ -1,0 +1,36 @@
+{
+    "kind": "collectionType",
+    "collectionName": "invoices",
+    "info": {
+        "singularName": "invoice",
+        "pluralName": "invoices",
+        "displayName": "Invoice"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {
+        "content-manager": {
+            "visible": true
+        },
+        "content-type-builder": {
+            "visible": true
+        }
+    },
+    "attributes": {
+        "email": {
+            "type": "string"
+        },
+        "total": {
+            "type": "decimal",
+            "required": true,
+            "min": 0
+        },
+        "notes": {
+            "type": "string"
+        },
+        "failed": {
+            "type": "boolean"
+        }
+    }
+}
