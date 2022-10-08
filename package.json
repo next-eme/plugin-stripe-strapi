@@ -1,11 +1,15 @@
 {
-  "name": "stripe",
+  "name": "plugin-stripe-strapi",
   "version": "0.0.0",
   "description": "This is the description of the plugin.",
   "strapi": {
     "name": "stripe",
     "description": "Integration stripe, invoicing",
     "kind": "plugin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/next-eme/plugin-stripe-strapi"
   },
   "dependencies": {
     "uuid": "^9.0.0"
